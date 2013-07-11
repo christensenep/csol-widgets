@@ -10,7 +10,7 @@ SELECT
         WHEN state = 'rejected' THEN 'Rejected'
         WHEN state = 'accepted' THEN 'Accepted'
 		ELSE 'Unknown'
-    END AS state,
+    END AS status,
     COUNT(*) AS count
     FROM applications
-    GROUP BY state;
+    GROUP BY status;
