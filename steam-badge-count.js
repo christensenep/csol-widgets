@@ -3,4 +3,4 @@
 
 var steamBadges = db.badges.distinct( "_id", {"categoryAward" : { $nin: ["", null] } } );
 
-printjson(db.badgeinstances.count( {"badge" : { $in : steamBadges } } ));
+print(db.badgeinstances.count( {"badge" : { $in : steamBadges } } ));
