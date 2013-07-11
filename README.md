@@ -7,7 +7,7 @@ A collection of scripts that output various metrics from the CSOL-site and Openb
 Script                          | Output
 --------------------------------|-----------------------------------
 application-status-count.sql    | A count of applications grouped by status
-learner-age-count.sql           | A count of learners grouped by age, divided into <13, 13-17, 18-24, and >24
+learner-age-count.sql           | A count of learners grouped by age, divided into &lt13, 13-17, 18-24, and &gt24
 learner-gender-count.sql        | A count of learners grouped by gender
 learner-race-count.sql          | A count of learners grouped by race/ethnicity
 learner-school-count.sql        | A count of learners grouped by school (likely to be less than beautiful due to typos.  Probably not suitable for display on a widget.)
