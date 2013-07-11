@@ -1,5 +1,5 @@
-// prints a count of learners in each of four age groups
-// run on the csol database
+# prints a count of learners in each of four age groups
+# run on the csol database
 
 SELECT
     CASE

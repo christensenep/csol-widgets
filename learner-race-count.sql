@@ -1,5 +1,5 @@
-// prints a count of learners grouped by race
-// run on the csol database
+# prints a count of learners grouped by race
+# run on the csol database
 
 SELECT
 	CASE
