@@ -2,6 +2,8 @@
 
 A collection of scripts that output various metrics from the CSOL-site and Openbadger databases.
 
+Kinda lame, really.  Go here for the new hotness: https://github.com/christensenep/csol-reporter
+
 ### Scripts to be run in the CSOL MySQL database
 
 Script                          | Output
